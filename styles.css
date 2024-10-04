@@ -1,0 +1,242 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0f1f;
+    color: #fff;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+header {
+    background-color: #0a0f1f;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: gray;
+    transform: scale(1.5);
+    /*nose no pasa nada*/
+}
+
+nav ul li a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #38c7ff;
+    transition: width 0.3;
+    width: 0;
+    margin: auto;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+
+
+
+
+
+
+header img {
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid black;
+    object-fit: cover;
+    /*nose*/
+    margin-top: 30px;
+    box-shadow: 0 4px 15px rgb(0, 0, 0, 0.3);
+    /*nose*/
+}
+
+
+
+
+
+
+
+
+.intro h1 {
+    font-size: 36px;
+    color: #38c7ff;
+    margin-top: 20px;
+}
+
+.intro p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #9146ff, #38c7ff);
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+
+
+#historia-personal {
+    padding: 50px;
+    background-color: #29344e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#projects {
+    padding: 50px;
+    background-color: #131a2b;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background-color: #1c2233;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
+.project img {
+    width: 300px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.project h3 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+#technologies {
+    padding: 50px;
+    background-color: #0a0f1f;
+}
+
+.skills {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background-color: #1c2233;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress {
+    background: linear-gradient(90deg, #9146ff, #38c7ff);
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#about {
+    padding: 50px;
+    background-color: #131a2b;
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event h3 {
+    color: #38c7ff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* aqui debo agregar un difuminado profesionallllllllllllllllll*/
+
+footer {
+
+    padding: 20px;
+    text-align: center;
+    background-color: #1c2233;
+    font-size: 14px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
