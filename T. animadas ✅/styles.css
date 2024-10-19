@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cardss{
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+
+.card{
+    background-color: rgb(27, 12, 235);
+    color: azure;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    transition: all 0.3s ease;
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card a{
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card a:hover{
+    color: lightyellow;
+}
+
+.card .header{
+    flex: 1;
+}
+
+.card:hover{
+    margin-right: 80px;
+    transform: rotate(3deg) translateY(-15px);
+}
+
+.header .date{
+    padding: 10px 0;
+
+}
+
+.header .title{
+    font-size: 28px;
+}
+
+.footer img{
+    width: 65px;
+    border-radius: 30%;
+}
+
+.footer .autor a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card[class*="element"]{
+    margin-left: -100px;
+}
+
+
+
+
+
+
+
+
+
