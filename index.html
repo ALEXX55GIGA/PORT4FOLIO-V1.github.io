@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portafolio web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="FAVICONS/favicon-32x32.png">
     <meta name="author" content="Alex Hernandez">
+    
 </head>
 
 <body>
@@ -22,11 +24,10 @@
             </ul>
         </nav>
 
-        <img src="mi perfil foto.jpeg" alt="foto personal">
+        <img src="/imagenes/mi perfil foto.jpeg" alt="foto personal">
         <h1>Alex Hernandez</h1>
         <div class="intro">
-            <h1>Hola, soy un Futuro desarrollador Front-end, estoy emocionado por aprender mas de tecnologia... crear algo brillante que me haga destacar</h1>
-            <p>siempre estoy dispuesto a aprender más</p>
+            <h1>Hola, soy un Futuro desarrollador Front-end, estoy emocionado por aprender mas de tecnologia</h1>
             <a href="CV Alex Hernandez.pdf" class="btn">Descarga mi CV</a>
         </div>
     </header>
@@ -34,27 +35,24 @@
     <section id="historia-personal">
         <div class="historia">
             <h2 style="text-align: center;">Historia Personal</h2>
-            <p>En Septiembre de 2024 empecé a estudiar en Core Code, aprendí mucho y fueron mis primeros pasos en la programación.
-                <br><br>
-                Me gustó la programación, así que me obsesioné con mi desarrollo profesional. Vi el potencial que tenía
-                esta carrera, ¡así que decidí empezar con todo!
-                También decidí renunciar a mi trabajo actual y dedicarme solamente a estudiar y conseguir el empleo que
-                soñaba.
-                <br><br>
-                Seguí aprendiendo más habilidades bajo demanda como Scrum, varias soft skills, seguí mejorando mi
-                inglés, hice una carrera en Google de diseño UX/UI, en Platzi aprendí sobre ciberseguridad. Pasaron
-                los meses y ya tenía varios certificados.
-                <br><br>
-                Tuve mis primeros proyectos como freelance en Upwork y gané mucha experiencia allí. Trabajé en diversos
-                proyectos que me permitieron aplicar mis conocimientos y habilidades en entornos reales, lo que a su vez
-                me enseñó a ser más eficiente y resolver problemas de manera creativa.
-                <br><br>
-                Durante estos proyectos, descubrí técnicas que mejoraron notablemente mi forma de escribir código.
-                Aprendí a optimizar el rendimiento de mis aplicaciones y a crear interfaces más atractivas y
-                funcionales.
-                <br>
-                ....
-            </p>
+            <p class="pprincipal">Desde que conoci el desarrollo web, me he sentido atraido por crear mi propia pagina web, quiero que sea colorida , muy profesional, que se vea el futuro del diseño web en mi pagina, radiente y  atractiva.
+
+            <p class="pprincipal">asi que empeze a aprender HTML, CSS, Javascript y  bootstrap, me llama mucho la atencion, la parte visual y ver que puedo lograr con mi creatividad.</p>
+
+            <p class="pprincipal">con el paso del tiempo y conocer mas de la tecnologia he investigado acerca de cloud computing y Ciberseguridad, son temas curiosos para mí</p>
+
+            <p class="pprincipal">empeze a ver cursos y videos de youtube para aprender mas sobre el trabajo remoto; <ol class="pprincipal">
+                <li > marca personal en LinkedIN</li>
+                <li>slack</li>
+                <li>entrevistas de trabajo</li>
+                <li>lo escencial  e importante que son las soft skills en el trabajo remoto</li>
+                <li>la importancia de actualizarse y saber sobre IA</li>
+                <li>notion</li>
+                <li>gestion del tiempo y productividad</li>
+                <li>metodología scrum</li>
+            </ol></p>
+
+            <p class="pprincipal">y pues ahora sigo preparandome para obtener mas certificados, aprender algunas soft skills, mejorar mi ingles, y Diseño UX/UI tambien esta en mis planes para ser un muy buen programador completo y valorado en el mercado internacional</p>
         </div>
     </section>
 
@@ -62,28 +60,41 @@
         <h2 style="text-align: center;">Proyectos</h2>
 
         <div class="project-grid">
+
+            <div class="project">
+                <img src="imagenes/login.png" alt="">
+                <h3>interfaz de un formulario LOGIN</h3>
+                <a href="/formulario login✅/" class="btn">ir al proyecto</a>
+            </div>
+
+
+            <div class="project">
+                <img src="imagenes/imagen3.png" alt="">
+                <h3>tarjeta followers</h3>
+                <a href="tarjetas ✅/index.html" class="btn">ir al proyecto</a>
+            </div>
+            
+
+
+            <div class="project">
+                <img src="imagenes/imagen4.png" alt="">
+                <h3>tarjetas dinamicas</h3>
+                <a href="/formulario login✅/" class="btn">ir al proyecto</a>
+            </div>
+
+
+
             <div class="project">
                 <img src="imagenes/layout.png" alt="foto de landing pages">
                 <h3>layout de una pagina web</h3>
-                <a href="LAYOUT ✅/index.html" class="btn">Vista Previa</a>
+                <a href="LAYOUT ✅/index.html" class="btn">ir al proyecto</a>
             </div>
 
-            <div class="project">
-                <img src="imagenes/clima n.jpg" alt="foto de proyecto modo oscuro">
-                <h3>Aplicación de Clima</h3>
-                <a href="#" class="btn">Vista Previa</a>
-            </div>
-
-            <div class="project">
-                <img src="imagenes/ecommerce.jpg" alt="foto de ecommerce">
-                <h3>Ecommerce</h3>
-                <a href="#" class="btn">Vista Previa</a>
-            </div>
         </div>
     </section>
 
     <section id="skills">
-        <h2 style="text-align: center;">Habilidades y Tecnologías</h2>
+        <h2 style="text-align: center; margin-top:45px;">Habilidades y Tecnologías</h2>
 
         <div class="skills">
             <div class="skill">
@@ -136,44 +147,66 @@
             </div>
 
             <div class="skill" style="margin-top: 20px;">
+                <span>Git</span>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                </div>
+            </div>
+
+            <div class="skill" style="margin-top: 20px;">
                 <span>Asana</span>
                 <div class="progress-bar">
                     <div class="progress" style="width: 75%;"></div>
                 </div>
             </div>
 
-            <div class="skill" style="margin-top: 20px;">
+            <div class="skill" style="margin-top: 20px;margin-bottom: 50px;">
                 <span>Microsoft office</span>
                 <div class="progress-bar">
                     <div class="progress" style="width: 60%;"></div>
                 </div>
             </div>
 
-            <div class="skill" style="margin-top: 20px; margin-bottom: 100px;">
-                <span>GIt</span>
-                <div class="progress-bar">
-                    <div class="progress" style="width: 50%;"></div>
-                </div>
-            </div>
+            
         </div>
     </section>
+
+
 
 
     <section id="metas">
         <div class="container-metas">
             <h2>Metas Profesionales</h2>
-            <p>
-                tengo muchas metas profesionales, muy grandes, veo muchas personas logrando cosas grandes en la tecnología y yo tambien deseo crear <span class="resalt">algo que me haga destacar.</span>
-            </p>
+            <div class="container-cards">
+                <div class="card">
+                    <div class="title"><h3>crear algo que me haga destacar</h3></div>
+                    <div class="text"><p class="pprincipal">tengo muchas metas profesionales, muy grandes, veo muchas personas logrando cosas grandes en la tecnología y yo tambien deseo crear <span class="resalt">algo que me haga destacar.</span></p></div>
+                </div>
+    
+                <div class="card">
+                    <div class="title"><h3>Motivacion por Aprender más.</h3></div>
+                    <div class="text"><p class="pprincipal">Quiero estudiar muchas más habilidades en demanda como <span class="resalt">diseño UX/UI, Cloud computing, Ingles, el arte de vender. tambien me llama mucho la atención la Ciberseguridad</span>.</p></div>
+                </div>
+    
+                <div class="card">
+                    <div class="title"><h3>Exito Financiero</h3></div>
+                    <div class="text"><p class="pprincipal">Aspiro a desarrollarme en el ámbito financiero, aprender sobre finanzas, inversiones y bienes raíces para lograr un crecimiento tanto profesional como económico.
+                    </p></div>
+                </div>
 
-            <p>Quiero estudiar muchas más habilidades en demanda como <span class="resalt">diseño UX/UI, Cloud computing, Ingles, el arte de vender. tambien me llama mucho la atención la Ciberseguridad</span>.</p>
+                <div class="card">
+                    <div class="title"><h3>Mindset</h3></div>
+                    <div class="text"><p class="pprincipal"> Me encanta la psicologia, son temas tan curiosos, por eso deseo mejorar mis habilidades como Liderazgo, comunicacion efectiva, carisma, hablar en publico, argumentacion, Pensamiento critico e Inteligencia emocional.</p> </div>
+                </div>
+            </div>
+            
 
-            <p>Quiero aprender sobre finanzas, aprender a invertir, bienes raices,se me hace algo escencial para el exito tambien</p>
-
-            <p>Pienso que tambien hay que trabajar la personalidad para lograr cosas grandes en lo Profesional. Me encanta la psicologia, son temas tan curiosos cuando se entra en profundidad por eso deseo mejorar mis <span class="resalt">habilidades como Liderazgo, comunicacion efectiva, carisma, hablar en publico, stand-up, argumentacion, Pensamiento critico.</span></p>
+           
 
         </div>
     </section>
+
+
 
     <footer id="contact">
         <h2>Contacto</h2>
@@ -181,7 +214,13 @@
         <p>Sígueme en: <a href="https://www.linkedin.com/in/alex-hernández-829495310">LinkedIn</a> y <a href="https://github.com/ALEXX55GIGA">GitHub</a></p>
     </footer>
 
+
+    
+
     <script src="javascript.js"></script>
 </body>
 
 </html>
+
+
+,
